@@ -1,6 +1,6 @@
-const assert = require('assert');
+const assert = require("assert");
 
-it('sum', () => {
+it("sum", () => {
   assert();
 
   assert(sum(1, 2), 3);

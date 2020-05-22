@@ -1,5 +1,5 @@
-const path = require('path');
-const HTMLPlugin = require('html-webpack-plugin');
+const path = require("path");
+const HTMLPlugin = require("html-webpack-plugin");
 
 module.exports = {
   module: {
@@ -7,7 +7,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: {
-          loader: 'ts-loader',
+          loader: "ts-loader",
           options: {
             transpileOnly: true,
           },
@@ -16,11 +16,11 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.ts'],
+    extensions: [".js", ".ts"],
   },
   plugins: [
     new HTMLPlugin({
-      template: path.join(__dirname, 'src/index.html'),
+      template: path.join(__dirname, "src/index.html"),
     }),
   ],
 };
