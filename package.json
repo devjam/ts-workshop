@@ -8,8 +8,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/preset-typescript": "^7.10.1",
-    "@snowpack/plugin-babel": "^1.0.0",
     "@types/mocha": "^7.0.2",
     "@types/node": "^14.0.5",
     "mocha": "^7.2.0",
