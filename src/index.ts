@@ -5,7 +5,6 @@ const sum = (x, y) => {
   if (typeof y !== "number") {
     throw new TypeError("y should be number");
   }
-
   return x + y;
 };
 

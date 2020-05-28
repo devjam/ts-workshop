@@ -1,27 +1,18 @@
 {
   "scripts": {
-    "start": "webpack-dev-server --quiet",
-    "build": "webpack --mode production",
+    "start": "snowpack dev",
+    "build": "snowpack build",
     "typecheck": "tsc -p .",
-    "format": "prettier --write .",
-    "test": "mocha"
+    "format": "prettier --write ."
   },
+  "dependencies": {},
   "devDependencies": {
-    "@types/mocha": "^7.0.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@snowpack/plugin-babel": "^1.0.0",
     "@types/node": "^14.0.5",
-    "html-webpack-plugin": "^4.3.0",
-    "mocha": "^7.1.2",
     "prettier": "^2.0.5",
-    "ts-loader": "^7.0.4",
-    "ts-node": "^8.10.1",
-    "ts-node-test-register": "^8.0.1",
-    "typescript": "^3.9.3",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "engines": {
-    "node": ">=12"
+    "snowpack": "^2.0.2",
+    "typescript": "^3.9.3"
   },
   "private": true
 }

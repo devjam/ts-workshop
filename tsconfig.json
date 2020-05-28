@@ -9,6 +9,8 @@
     "strict": true,
 
     /* Module Resolution Options */
+    "baseUrl": "./",
+    "paths": { "*": ["web_modules/.types/*"] },
     "moduleResolution": "node",
     "esModuleInterop": true,
 
