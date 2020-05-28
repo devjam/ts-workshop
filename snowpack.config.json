@@ -3,8 +3,5 @@
     "mount:public": "mount public --to /",
     "mount:src": "mount src --to /_dist_"
   },
-  "plugins": ["@snowpack/plugin-babel"],
-  "installOptions": {
-    "installTypes": true
-  }
+  "plugins": ["@snowpack/plugin-babel"]
 }
