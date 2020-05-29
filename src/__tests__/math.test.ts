@@ -1,10 +1,8 @@
-const assert = require("assert");
-// import assert from "assert";
+import assert from "assert";
+import { sum } from "../sum";
 
 it("sum", () => {
-  assert();
+  assert(sum(1, 2) === 3);
 
-  // assert(sum(1, 2), 3);
-
-  // assert.throws();
+  assert.throws(() => sum(1, NaN));
 });
